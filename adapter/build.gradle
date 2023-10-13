@@ -13,5 +13,6 @@ tasks.bootJar {
 
 dependencies {
     implementation(project(":framework"))
+    implementation(project(":application"))
 }
 

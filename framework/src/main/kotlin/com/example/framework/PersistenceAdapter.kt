@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component
 
 
 @Component
-@Target(AnnotationTarget.TYPE)
+@Target(AnnotationTarget.TYPE, AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
 annotation class PersistenceAdapter(
     @get:AliasFor(annotation = Component::class)
