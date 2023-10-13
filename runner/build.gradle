@@ -13,5 +13,6 @@ tasks.bootJar {
 
 dependencies {
     runtimeOnly("com.mysql:mysql-connector-j")
+    implementation(project(":adapter"))
 }
 

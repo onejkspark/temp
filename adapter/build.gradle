@@ -12,5 +12,6 @@ tasks.bootJar {
 
 
 dependencies {
+    implementation(project(":framework"))
 }
 
